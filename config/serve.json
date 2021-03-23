@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://yashtechinc9.sharepoint.com/sites/DevSite",
+      "customActions": {
+        "1573c144-3fcd-49d3-8ba6-e2151f798acc": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "chatbot": {
+      "pageUrl": "https://yashtechinc9.sharepoint.com/sites/DevSite",
+      "customActions": {
+        "1573c144-3fcd-49d3-8ba6-e2151f798acc": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
